@@ -4,10 +4,11 @@ In this paper, we propose a **Contrastively Augmented Masked Graph Autoencoder (
 
 ![STMGAC.jpg](STMGAC.jpg)
 
-## Installations
-- NVIDIA GPU (a single Nvidia GeForce RTX 3090)
--   `pip install -r requiremnts.txt`
+## Data
 - All public datasets used in this paper are available at [Zenodo](https://zenodo.org/records/13253801)
+
+## Setup
+-   `pip install -r requirements.txt`
 
 ## Get Started
 We provided codes for reproducing the experiments of the paper "Masked Graph Autoencoders with Contrastive Augmentation for Spatially Resolved Transcriptomics Data", and comprehensive tutorials for using STMGAC.
