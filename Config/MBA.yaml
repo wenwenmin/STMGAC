@@ -1,0 +1,30 @@
+data:
+  dataset: MBA
+  k_cutoff: 6
+  top_genes: 3000
+mode: clustering
+model:
+  clus_num_iters: 20
+  dic_hidden: 64
+  feat_hidden1: 64
+  feat_hidden2: 32
+  gcn_hidden: 64
+  latent_dim: 16
+  mask_rate: 0.5
+  momentum_rate: 0.97
+  num_kmeans: 5
+  p_drop: 0.2
+  project_dim: 32
+  replace_rate: 0.1
+  t: 2
+  topk: 30
+seed: 3407
+train:
+  decay: 0.001
+  epochs: 500
+  gradient_clipping: 5.0
+  lr: 0.001
+  t_step: 100
+  w_mean: 0.9
+  w_recon: 0.8
+  w_tri: 0.1

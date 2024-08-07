@@ -1,0 +1,30 @@
+data:
+  dataset: DLPFC
+  k_cutoff: 12
+  top_genes: 2000
+mode: clustering
+model:
+  clus_num_iters: 20
+  dic_hidden: 64
+  feat_hidden1: 64
+  feat_hidden2: 32
+  gcn_hidden: 64
+  latent_dim: 16
+  mask_rate: 0.7
+  momentum_rate: 0.998
+  num_kmeans: 5
+  p_drop: 0.2
+  project_dim: 32
+  replace_rate: 0.1
+  t: 2
+  topk: 30
+seed: 3407
+train:
+  decay: 0.001
+  epochs: 500
+  gradient_clipping: 5.0
+  lr: 0.001
+  t_step: 50
+  w_mean: 0.1
+  w_recon: 0.5
+  w_tri: 0.1
